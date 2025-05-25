@@ -55,5 +55,5 @@ const test: Quotation<Product> = {
   id: "",
   price: 11,
   productId: "",
-  productType: "Product__" // ←この型エラーが出ない
+  productType: "Product_" // ←この型エラーが出ない // Prodyct_*な値は許容される
 }
